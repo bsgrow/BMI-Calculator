@@ -24,7 +24,7 @@ import javax.swing.SwingConstants;
  * 
  * @author BrandonGrow
  * 
- * Version 1.0
+ * Version 1.0.0
  *
  */
 
@@ -225,9 +225,7 @@ public class BMI extends JFrame implements ActionListener{
     	} else if(bmiInt > 30) {
     		BMICalc.setForeground(Color.RED);
     		obese.setForeground(Color.RED);
-    	}
-
-    	
+    	}	
  
     }//end of actionListener method
     
